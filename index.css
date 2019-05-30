@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+body{
+    /* The image used */
+    background-image: url("back.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    overflow: hidden;
+  }
+  #title{
+    color: black;
+      letter-spacing: 2.5px;
+        word-spacing: 10px;
+            font-family: "Times New Roman", Times, serif;
+      font-size: 35px;
+      text-align: center;
+ }
+ #files{
+    /*background-color:antiquewhite*/
+    color: white;
+    padding: 20px 2px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    text-decoration-color: black;
+      -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 1px solid #4CAF50;
+      font-family: "Times New Roman", Times, serif;
+  }
+ #files:hover {
+    /*background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    letter-spacing: 2px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+  }
+#bodies{
+    stroke:black;  
+    stroke-width:3px;
+    opacity: 1;
+    stroke-opacity: 0.6
+    }
+#eyes{
+    stroke:#555555;
+    stroke-width:2px;
+}
+#mouths{
+    stroke-width: 2;
+    stroke:rgb(29, 29, 29);
+}
+#tails{
+    stroke:black;  
+    stroke-width:2px;
+    opacity: 0.8;
+    }
+#flippersUp{
+        stroke:black;  
+        stroke-width:2px;
+        opacity: 0.8;
+        }
+    
+
